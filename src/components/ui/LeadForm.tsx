@@ -29,6 +29,31 @@ export default function LeadForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    const text = `New Website Query:
+
+Name: ${form.name}
+Organization: ${form.organization}
+Email: ${form.email}
+Phone: ${form.phone || "N/A"}
+Industry: ${form.industry}
+Project Type: ${form.projectType}
+Location: ${form.location || "N/A"}
+Timeline: ${form.timeline || "N/A"}
+
+Details:
+${form.message}`;
+
+    // WhatsApp URL
+    const waUrl = `https://wa.me/919423191703?text=${encodeURIComponent(text)}`;
+    // Email URL
+    const emailUrl = `mailto:jatin@megatechsolutions.co.in?subject=${encodeURIComponent(`New Lead: ${form.organization} - ${form.projectType}`)}&body=${encodeURIComponent(text)}`;
+
+    // Open WhatsApp in new tab
+    window.open(waUrl, "_blank");
+    // Trigger default email client
+    window.location.href = emailUrl;
+
     setSubmitted(true);
   };
 
