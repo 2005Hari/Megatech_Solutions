@@ -34,7 +34,7 @@ export default function AboutPage() {
       />
 
       {/* ── Vision & Mission ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             <ScrollReveal direction="left">
@@ -63,7 +63,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── Leadership ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 items-center">
 
@@ -110,7 +110,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── Infrastructure Philosophy ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Our Philosophy</div>
@@ -132,7 +132,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── Timeline ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-5xl">
           <ScrollReveal>
             <div className="text-center mb-20">
@@ -167,7 +167,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-24 bg-[var(--color-surface-0)] border-t border-white/5">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] border-t border-white/5">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <ScrollReveal>
             <h2 className="text-4xl font-playfair font-bold text-white mb-6">Partner with MegaTech</h2>

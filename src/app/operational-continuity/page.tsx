@@ -52,7 +52,7 @@ export default function OperationalContinuityPage() {
       />
 
       {/* ── AMC Tiers ── */}
-      <section className="py-24 bg-[var(--color-surface-0)] border-y border-white/5 relative">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] border-y border-white/5 relative">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[var(--color-surface-2)] to-transparent opacity-40 pointer-events-none" />
         
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
@@ -79,7 +79,7 @@ export default function OperationalContinuityPage() {
       </section>
 
       {/* ── Operational Capabilities ── */}
-      <section className="py-32 bg-[var(--color-surface-0)] relative overflow-hidden">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] relative overflow-hidden">
         <div className="absolute inset-0 grid-overlay-dense opacity-20" />
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -115,7 +115,7 @@ export default function OperationalContinuityPage() {
       </section>
 
       {/* ── Consultation CTA ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-4xl">
           <ScrollReveal className="text-center mb-16">
             <div className="section-label mb-4">Secure Uptime</div>

@@ -273,7 +273,7 @@ export default function PartnersPage() {
       />
 
       {/* ── Partner Philosophy ── */}
-      <section className="py-24 bg-[var(--color-surface-0)] border-b border-white/5">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] border-b border-white/5">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
@@ -293,7 +293,7 @@ export default function PartnersPage() {
       </section>
 
       {/* ── Ecosystem Grids ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl space-y-32">
           {ecosystems.map((eco, idx) => (
             <div key={eco.name}>
@@ -336,7 +336,7 @@ export default function PartnersPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-24 bg-[var(--color-surface-1)] border-t border-white/5">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)] border-t border-white/5">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <ScrollReveal>
             <h2 className="text-4xl font-playfair font-bold text-white mb-6">Not sure which technology is right for your environment?</h2>

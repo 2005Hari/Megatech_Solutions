@@ -48,7 +48,7 @@ export default function EducationPage() {
       />
 
       {/* ── Challenge Landscape ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">The Challenge</div>
@@ -72,7 +72,7 @@ export default function EducationPage() {
       </section>
 
       {/* ── MegaTech Approach ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">The MegaTech Approach</div>
@@ -97,7 +97,7 @@ export default function EducationPage() {
       </section>
 
       {/* ── Technology Stack ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Technology Stack</div>
@@ -126,7 +126,7 @@ export default function EducationPage() {
       </section>
 
       {/* ── Featured Project ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Featured Project</div>
@@ -160,7 +160,7 @@ export default function EducationPage() {
       </section>
 
       {/* ── Expected Outcomes ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Expected Outcomes</div>
@@ -183,7 +183,7 @@ export default function EducationPage() {
       </section>
 
       {/* ── Client Credentials ── */}
-      <section className="py-24 bg-[var(--color-surface-0)] border-t border-white/5">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] border-t border-white/5">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Credentials Portfolio</div>
@@ -215,7 +215,7 @@ export default function EducationPage() {
 
 
       {/* ── Consultation CTA ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
             <ScrollReveal direction="left">

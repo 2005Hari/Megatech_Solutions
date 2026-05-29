@@ -26,7 +26,7 @@ export default function ConsultationPage() {
         breadcrumb="Consultation"
       />
 
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-20">
 

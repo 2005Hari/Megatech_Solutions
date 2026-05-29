@@ -46,7 +46,7 @@ export default function GovernmentPage() {
         breadcrumb="Government"
       />
 
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">The Challenge</div>
@@ -68,7 +68,7 @@ export default function GovernmentPage() {
         </div>
       </section>
 
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal><div className="section-label mb-4">The MegaTech Approach</div><div className="divider-gold" /><h2 className="text-5xl font-playfair font-bold text-white mb-16">Our 5-Phase Methodology</h2></ScrollReveal>
           <div className="space-y-px">
@@ -87,7 +87,7 @@ export default function GovernmentPage() {
         </div>
       </section>
 
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal><div className="section-label mb-4">Technology Stack</div><div className="divider-gold" /><h2 className="text-5xl font-playfair font-bold text-white mb-16">What We Deploy</h2></ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -107,7 +107,7 @@ export default function GovernmentPage() {
         </div>
       </section>
 
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal><div className="section-label mb-4">Featured Project</div><div className="divider-gold" /></ScrollReveal>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mt-12">
@@ -136,7 +136,7 @@ export default function GovernmentPage() {
         </div>
       </section>
 
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal><div className="section-label mb-4">Expected Outcomes</div><div className="divider-gold" /><h2 className="text-5xl font-playfair font-bold text-white mb-16">Measurable Results</h2></ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -153,7 +153,7 @@ export default function GovernmentPage() {
         </div>
       </section>
 
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
             <ScrollReveal direction="left">

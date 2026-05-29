@@ -87,7 +87,7 @@ export default function Home() {
     <main>
 
       {/* ═══ 1. CINEMATIC HERO ═══════════════════════════════════════════════ */}
-      <section className="relative min-h-screen flex flex-col justify-end overflow-hidden bg-[var(--color-surface-0)]">
+      <section className="relative min-h-[100svh] flex flex-col justify-end overflow-hidden bg-[var(--color-surface-0)]">
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--color-gold)]/50 to-transparent" />
 
         {/* Hero Content */}
-        <div className="container mx-auto px-4 pb-32 pt-40 relative z-10 max-w-7xl">
+        <div className="container mx-auto px-4 pb-16 pt-32 lg:pb-24 lg:pt-40 relative z-10 max-w-7xl">
           <div className="max-w-4xl">
             <div className="section-label mb-6">Enterprise Infrastructure & Smart Technology</div>
             <div className="divider-gold" />
@@ -149,7 +149,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 2. TRUSTED BY ═══════════════════════════════════════════════════ */}
-      <section className="py-20 bg-[var(--color-surface-1)] border-b border-white/5 relative overflow-hidden">
+      <section className="py-10 lg:py-16 bg-[var(--color-surface-1)] border-b border-white/5 relative overflow-hidden">
         <div className="absolute inset-0 grid-overlay opacity-30 pointer-events-none" />
         <div className="container mx-auto px-4 max-w-7xl relative z-10 text-center mb-12">
           <p className="text-center text-[10px] font-bold tracking-[0.25em] uppercase text-[var(--color-gold)] mb-2">
@@ -231,7 +231,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 3. LEGACY / WHO WE ARE ══════════════════════════════════════════ */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
@@ -277,7 +277,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 4. INDUSTRIES WE SERVE ══════════════════════════════════════════ */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="text-center mb-20">
@@ -318,7 +318,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 5. ENTERPRISE CAPABILITIES ══════════════════════════════════════ */}
-      <section id="solutions" className="py-32 bg-[var(--color-surface-0)]">
+      <section id="solutions" className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="mb-20">
@@ -360,7 +360,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 6. FEATURED PROJECT ═════════════════════════════════════════════ */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Featured Project</div>
@@ -414,7 +414,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 7. TECHNOLOGY ECOSYSTEM ═════════════════════════════════════════ */}
-      <section className="py-24 bg-[var(--color-surface-0)] border-y border-white/5">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] border-y border-white/5">
         <div className="container mx-auto px-4 max-w-7xl mb-16">
           <ScrollReveal>
             <div className="text-center">
@@ -496,7 +496,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 8. LEADERSHIP ═══════════════════════════════════════════════════ */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 items-center">
 
@@ -554,7 +554,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 9. TESTIMONIAL ══════════════════════════════════════════════════ */}
-      <section className="py-32 bg-[var(--color-surface-0)] relative overflow-hidden">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] relative overflow-hidden">
         <div className="absolute inset-0 grid-overlay-dense opacity-40" />
         <div className="container mx-auto px-4 max-w-5xl relative z-10 text-center">
           <ScrollReveal>
@@ -574,7 +574,7 @@ export default function Home() {
       </section>
 
       {/* ═══ 10. FINAL CTA ════════════════════════════════════════════════════ */}
-      <section className="py-32 bg-[var(--color-surface-1)] relative overflow-hidden">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)] relative overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--color-gold)]/30 to-transparent" />
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">

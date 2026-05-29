@@ -27,7 +27,7 @@ export default function WhyMegaTechPage() {
       />
 
       {/* Reasons */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Six Reasons</div>
@@ -49,7 +49,7 @@ export default function WhyMegaTechPage() {
       </section>
 
       {/* Editorial statement */}
-      <section className="py-32 bg-[var(--color-surface-1)] relative overflow-hidden">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)] relative overflow-hidden">
         <div className="absolute inset-0 grid-overlay opacity-30" />
         <div className="container mx-auto px-4 max-w-4xl relative z-10 text-center">
           <ScrollReveal>

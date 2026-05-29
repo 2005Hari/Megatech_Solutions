@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-[var(--color-surface-0)] text-[var(--color-text-secondary)] border-t border-white/5">
 
       {/* Main Footer Grid */}
-      <div className="container mx-auto px-4 py-20 grid grid-cols-1 md:grid-cols-12 gap-12">
+      <div className="container mx-auto px-4 py-10 lg:py-16 grid grid-cols-1 md:grid-cols-12 gap-12">
 
         {/* Brand Column */}
         <div className="md:col-span-4 space-y-6">

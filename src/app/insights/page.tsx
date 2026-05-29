@@ -64,7 +64,7 @@ export default function InsightsPage() {
       />
 
       {/* ── Featured Whitepaper / Article ── */}
-      <section className="py-32 bg-[var(--color-surface-0)] relative overflow-hidden">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)] relative overflow-hidden">
         <div className="absolute inset-0 grid-overlay opacity-30" />
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
           <ScrollReveal>
@@ -109,7 +109,7 @@ export default function InsightsPage() {
       </section>
 
       {/* ── Main Insights Grid ── */}
-      <section className="py-32 bg-[var(--color-surface-1)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)]">
         <div className="container mx-auto px-4 max-w-7xl">
           <ScrollReveal>
             <div className="section-label mb-4">Latest Knowledge</div>

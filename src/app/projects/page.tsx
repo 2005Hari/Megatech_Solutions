@@ -62,7 +62,7 @@ export default function ProjectsPage() {
       />
 
       {/* ── Project Cards ── */}
-      <section className="py-32 bg-[var(--color-surface-0)]">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-0)]">
         <div className="container mx-auto px-4 max-w-7xl space-y-40">
           {projects.map((project, idx) => (
             <div key={project.title} className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
@@ -131,7 +131,7 @@ export default function ProjectsPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-24 bg-[var(--color-surface-1)] border-t border-white/5">
+      <section className="py-12 lg:py-10 lg:py-16 bg-[var(--color-surface-1)] border-t border-white/5">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <ScrollReveal>
             <h2 className="text-4xl font-playfair font-bold text-white mb-6">Start Your Infrastructure Project</h2>

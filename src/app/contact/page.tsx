@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-[var(--color-surface-0)] text-white">
+    <main className="min-h-[100svh] bg-[var(--color-surface-0)] text-white">
       <PageHeader 
         title="Get in Touch" 
         description="Ready to build smarter, resilient infrastructure? Reach out directly to our engineering and consultation teams."
         breadcrumb="Contact"
       />
       
-      <section className="py-32 relative overflow-hidden">
+      <section className="py-16 lg:py-12 lg:py-10 lg:py-16 relative overflow-hidden">
         <div className="absolute inset-0 grid-overlay opacity-30 pointer-events-none" />
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
