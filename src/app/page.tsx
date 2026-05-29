@@ -113,22 +113,22 @@ export default function Home() {
             <div className="section-label mb-6">Enterprise Infrastructure & Smart Technology</div>
             <div className="divider-gold" />
 
-            <h1 className="text-6xl md:text-8xl font-bold font-playfair text-white leading-[1.05] mb-8">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-playfair text-white leading-[1.1] tracking-tight mb-6">
               Engineering<br />
               <span className="gradient-text">Future-Ready</span><br />
               Infrastructure.
             </h1>
 
-            <p className="text-xl md:text-2xl text-[var(--color-text-secondary)] leading-relaxed max-w-2xl mb-12 font-light">
+            <p className="text-lg md:text-xl text-[var(--color-text-secondary)] leading-relaxed max-w-2xl mb-10 font-light">
               Delivering enterprise networking, intelligent security systems, smart infrastructure, and operational continuity solutions for institutions, industries, healthcare organizations, and government bodies.
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Link href="/consultation" className="btn-gold inline-flex items-center gap-2 px-8 py-4 rounded-sm text-base">
+              <Link href="/consultation" className="btn-gold inline-flex items-center gap-2 px-8 py-4 rounded-sm text-sm font-semibold tracking-wide uppercase">
                 Schedule Infrastructure Assessment
                 <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link href="/projects" className="inline-flex items-center gap-2 px-8 py-4 rounded-sm text-base border border-white/20 text-white hover:bg-white/5 transition-colors">
+              <Link href="/projects" className="inline-flex items-center gap-2 px-8 py-4 rounded-sm text-sm font-semibold tracking-wide uppercase border border-white/20 text-white hover:bg-white/5 transition-colors">
                 View Projects
               </Link>
             </div>
