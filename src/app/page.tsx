@@ -504,7 +504,7 @@ export default function Home() {
               <div className="relative">
                 <div className="relative h-[500px] rounded-sm overflow-hidden">
                   <Image
-                    src="/jatin-panchal.png"
+                    src="/jatin-panchal.jpg"
                     alt="Jatin A. Panchal — Managing Director"
                     fill
                     className="object-cover object-top"

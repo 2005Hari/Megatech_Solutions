@@ -71,7 +71,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="relative h-[540px] rounded-sm overflow-hidden">
                   <Image
-                    src="/jatin-panchal.png"
+                    src="/jatin-panchal.jpg"
                     alt="Jatin A. Panchal — Managing Director, MegaTech Solutions"
                     fill
                     className="object-cover object-top"
