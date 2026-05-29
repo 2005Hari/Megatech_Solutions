@@ -5,12 +5,12 @@ import { ShieldCheck, Activity, RefreshCw, MonitorSmartphone, Clock, Settings, C
 
 export const metadata = {
   title: "Operational Continuity Services & AMC | MegaTech Solutions",
-  description: "Enterprise-grade physical infrastructure maintenance, 24/7 remote monitoring NOC, and rigorous SLA management.",
+  description: "Enterprise-grade physical infrastructure maintenance, 24/7 remote monitoring NOC, and rigorous AMC management.",
 };
 
 const gaps = [
   { title: "Reactive Break-Fix Models", body: "Waiting for critical networking or security hardware to fail completely before initiating repairs, costing hours of valuable operational downtime." },
-  { title: "Vague, Unenforceable SLAs", body: "Local vendor agreements lacking firm commitments on response latency, parts replacement speeds, and critical engineering availability." },
+  { title: "Vague, Unenforceable AMCs", body: "Local vendor agreements lacking firm commitments on response latency, parts replacement speeds, and critical engineering availability." },
   { title: "Neglected Firmware & Security", body: "Infrastructure left unpatched for years, creating high-risk cybersecurity entry points and hardware compatibility glitches." },
   { title: "No Proactive Monitoring", body: "Operating with blind spots — discovering a surveillance camera or core link has been offline for weeks only AFTER a critical event." },
 ];
@@ -18,13 +18,13 @@ const gaps = [
 const tiers = [
   {
     icon: <ShieldCheck className="w-8 h-8 text-[var(--color-gold)] mb-6" />,
-    title: "Platinum SLA",
+    title: "Platinum AMC",
     desc: "Designed for mission-critical hospital grids and real-time security centers requiring immediate action.",
     features: ["4-Hour On-Site Engineering Response", "24/7 Proactive Remote NOC Monitoring", "Active-Passive Hot Standby Hardware", "Monthly Network Posture Audits"]
   },
   {
     icon: <Activity className="w-8 h-8 text-[var(--color-gold)] mb-6" />,
-    title: "Gold SLA",
+    title: "Gold AMC",
     desc: "Ideal for corporate offices and high-density educational environments seeking robust stability.",
     features: ["8-Hour On-Site Response Guarantee", "12/5 NOC Connectivity Monitoring", "Preventative Quarterly Health Checks", "Next-Business-Day Parts Replacement"]
   },
@@ -51,15 +51,17 @@ export default function OperationalContinuityPage() {
         breadcrumb="Operational Continuity"
       />
 
-      {/* ── Challenge Landscape ── */}
-      <section className="py-32 bg-[var(--color-surface-0)] relative overflow-hidden">
-        <div className="absolute inset-0 grid-overlay opacity-30" />
+      {/* ── AMC Tiers ── */}
+      <section className="py-24 bg-[var(--color-surface-0)] border-y border-white/5 relative">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[var(--color-surface-2)] to-transparent opacity-40 pointer-events-none" />
+        
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
           <ScrollReveal>
-            <div className="section-label mb-4">Beyond Simple Maintenance</div>
-            <div className="divider-gold" />
-            <h2 className="text-5xl font-playfair font-bold text-white mb-6">Why Standard AMCs Fail</h2>
+            <div className="text-center mb-16">
+              <p className="section-label mb-4 text-center">Service Excellence</p>
+              <h2 className="text-5xl font-playfair font-bold text-white mb-6">AMC Tiers Tailored to Your Scale</h2>
             <p className="text-[var(--color-text-secondary)] text-xl max-w-2xl mb-16">Traditional vendors react only after catastrophic system failure. MegaTech partners with industry leaders to guarantee continuous operation.</p>
+            </div>
           </ScrollReveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/5">
@@ -69,43 +71,6 @@ export default function OperationalContinuityPage() {
                   <div className="text-[var(--color-gold)] font-display font-bold text-4xl mb-4 opacity-20">0{i + 1}</div>
                   <h3 className="text-xl font-bold text-white mb-3 font-display">{g.title}</h3>
                   <p className="text-[var(--color-text-secondary)] text-sm leading-relaxed">{g.body}</p>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── SLA Tiers ── */}
-      <section className="py-32 bg-[var(--color-surface-1)] relative">
-        <div className="container mx-auto px-4 max-w-7xl">
-          <ScrollReveal className="text-center max-w-3xl mx-auto mb-20">
-            <div className="section-label mb-4">Service Level Agreements</div>
-            <div className="divider-gold mx-auto" />
-            <h2 className="text-5xl font-playfair font-bold text-white mb-6">SLA Tiers Tailored to Your Scale</h2>
-            <p className="text-[var(--color-text-secondary)] text-lg leading-relaxed">
-              We design structured commitments with legally binding uptime agreements, keeping your critical networks and surveillance grids fully operational.
-            </p>
-          </ScrollReveal>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {tiers.map((tier, index) => (
-              <ScrollReveal key={tier.title} delay={((index + 1) as 1 | 2 | 3)}>
-                <div className="bg-[var(--color-surface-2)] border border-white/5 p-10 rounded-sm h-full hover:border-[var(--color-gold)]/30 transition-all duration-300 flex flex-col justify-between">
-                  <div>
-                    {tier.icon}
-                    <h3 className="text-2xl font-bold text-white mb-4 font-display">{tier.title}</h3>
-                    <p className="text-[var(--color-text-secondary)] text-sm leading-relaxed mb-8">{tier.desc}</p>
-                    <div className="w-full h-px bg-white/10 mb-8" />
-                    <ul className="space-y-4">
-                      {tier.features.map(feat => (
-                        <li key={feat} className="flex items-start gap-3 text-sm text-[var(--color-text-secondary)]">
-                          <CheckCircle2 className="w-4 h-4 text-[var(--color-gold)] shrink-0 mt-0.5" />
-                          <span>{feat}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
               </ScrollReveal>
             ))}
@@ -128,7 +93,7 @@ export default function OperationalContinuityPage() {
               <div className="bg-[var(--color-surface-1)] border border-white/5 p-6 rounded-sm">
                 <p className="text-[var(--color-gold)] font-bold text-sm tracking-wider uppercase mb-1">NOC Incident Center</p>
                 <p className="text-white text-lg font-bold font-display">+91 94231 91703</p>
-                <p className="text-[var(--color-text-muted)] text-sm mt-1">SLA incidents resolved in real-time by certified engineers.</p>
+                <p className="text-[var(--color-text-muted)] text-sm mt-1">AMC incidents resolved in real-time by certified engineers.</p>
               </div>
             </ScrollReveal>
 
@@ -155,14 +120,13 @@ export default function OperationalContinuityPage() {
           <ScrollReveal className="text-center mb-16">
             <div className="section-label mb-4">Secure Uptime</div>
             <div className="divider-gold mx-auto" />
-            <h2 className="text-5xl font-playfair font-bold text-white mb-4">Request a Customized SLA Proposal</h2>
-            <p className="text-[var(--color-text-secondary)]">Connect with our systems integration team to audit your current environment and secure operational continuity.</p>
-          </ScrollReveal>
-          
-          <ScrollReveal delay={2}>
-            <div className="bg-white p-8 md:p-12 rounded-sm shadow-2xl">
-              <h3 className="text-2xl font-bold text-[var(--color-navy)] font-display mb-2 text-center">Submit Service Request</h3>
-              <p className="text-gray-400 text-sm mb-8 text-center">We will analyze your requirements and provide a drafted SLA roadmap.</p>
+            <h2 className="text-5xl font-playfair font-bold text-white mb-4">Request a Customized AMC Proposal</h2>
+            <div className="w-16 h-1 bg-[var(--color-gold)] mb-6" />
+            <div className="max-w-xl">
+              <p className="text-[var(--color-text-secondary)] text-lg mb-4 leading-relaxed">
+                Stop accepting downtime. Engage MegaTech for proactive, enterprise-grade physical infrastructure continuity.
+              </p>
+              <p className="text-gray-400 text-sm mb-8 text-center">We will analyze your requirements and provide a drafted AMC roadmap.</p>
               <LeadForm />
             </div>
           </ScrollReveal>

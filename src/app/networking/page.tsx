@@ -22,7 +22,7 @@ const approach = [
   { step: "02", title: "Redundant Backbone Design", body: "We engineer a multi-gigabit fiber ring with automated failover and secure virtual local area network (VLAN) structures." },
   { step: "03", title: "Deployment Optimization", body: "We pull optical fiber and deploy structured copper backplanes with meticulous labeling and industry-certified testing." },
   { step: "04", title: "Switching & Wireless Setup", body: "We configure advanced core/edge switches and deploy enterprise-grade WiFi 6/6E access points for complete coverage." },
-  { step: "05", title: "Automated Monitoring", body: "We connect the infrastructure to our central Network Operations Center (NOC) for proactive alerting and SLA compliance." },
+  { step: "05", title: "Automated Monitoring", body: "We connect the infrastructure to our central Network Operations Center (NOC) for proactive alerting and AMC compliance." },
 ];
 
 const stack = [
@@ -145,7 +145,7 @@ export default function NetworkingPage() {
               <h3 className="text-4xl font-playfair font-bold text-white mb-4">Corporate Tech Park — Optical Backbone & WiFi 6 Campus Upgrade</h3>
               <p className="text-[var(--color-text-secondary)] mb-8 leading-relaxed">Engineered and installed a unified multi-gigabit network campus for a prominent technology hub. Deployed redundant 40Gbps single-mode optical rings connecting 4 corporate structures, integrated over 800 managed switching ports, and optimized a high-density corporate WiFi 6 network serving 5,000+ active users daily with isolated, secure virtual network paths.</p>
               <div className="grid grid-cols-3 gap-4 mb-8">
-                {[["40 Gbps", "Fiber Core"], ["5,000+", "Concurrent Users"], ["99.999%", "Network SLA"]].map(([v, l]) => (
+                {[["40 Gbps", "Fiber Core"], ["5,000+", "Concurrent Users"], ["99.999%", "Network Guarantee"]].map(([v, l]) => (
                   <div key={l} className="text-center bg-[var(--color-surface-2)] p-4 rounded-sm">
                     <div className="text-2xl font-bold text-white font-display">{v}</div>
                     <div className="text-[10px] text-[var(--color-text-muted)] uppercase tracking-wider mt-1">{l}</div>

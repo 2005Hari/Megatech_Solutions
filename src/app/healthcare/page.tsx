@@ -21,7 +21,7 @@ const approach = [
   { step: "02", title: "Redundant Network Design", body: "We architect active-active redundant core networks with UPS-backed power, ensuring zero single points of failure." },
   { step: "03", title: "IP Surveillance Upgrade", body: "Legacy analog systems are replaced with high-definition IP cameras with video analytics, covering all critical zones." },
   { step: "04", title: "Biometric Access Deployment", body: "Restricted areas receive multi-factor biometric access control integrated with hospital Active Directory." },
-  { step: "05", title: "24/7 NOC Monitoring", body: "Post-deployment, all critical infrastructure is continuously monitored from our NOC with SLA-guaranteed response times." },
+  { step: "05", title: "24/7 NOC Monitoring", body: "Post-deployment, all critical infrastructure is continuously monitored from our NOC with AMC-guaranteed response times." },
 ];
 
 const stack = [

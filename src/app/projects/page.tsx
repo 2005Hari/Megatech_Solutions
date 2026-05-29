@@ -17,7 +17,7 @@ const projects = [
     challenge: "Legacy copper network causing persistent outages for 10,000 students. No centralized campus surveillance.",
     solution: "End-to-end 40G fiber backbone, 1,200+ WiFi 6 APs, and a centralized command center with AI-powered video analytics across 500 cameras.",
     stack: "Cisco Catalyst · Aruba WiFi 6 · CommScope Fiber · Milestone VMS",
-    outcomes: [["10,000+", "Concurrent Users"], ["500", "IP Cameras"], ["99.99%", "Uptime SLA"]],
+    outcomes: [["10,000+", "Concurrent Users"], ["500", "IP Cameras"], ["99.99%", "Uptime Guarantee"]],
     image: "/img-education.png",
   },
   {

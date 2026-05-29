@@ -22,7 +22,7 @@ const approach = [
   { step: "02", title: "Architecture Design", body: "We design a unified fiber backbone, high-density wireless topology, and integrated surveillance plan using best-fit multi-vendor technologies." },
   { step: "03", title: "Phased Deployment", body: "Campus upgrades are executed building-by-building to ensure zero academic disruption during deployment phases." },
   { step: "04", title: "Command Center Integration", body: "All systems — network, surveillance, and access control — are unified into a single, centralized operations console." },
-  { step: "05", title: "SLA-Backed Continuity", body: "Post-deployment, our NOC monitors campus infrastructure 24/7 with guaranteed response times under our Operational Continuity Agreement." },
+  { step: "05", title: "AMC-Backed Continuity", body: "Post-deployment, our NOC monitors campus infrastructure 24/7 with guaranteed response times under our Operational Continuity Agreement." },
 ];
 
 const stack = [
@@ -144,7 +144,7 @@ export default function EducationPage() {
               <h3 className="text-4xl font-playfair font-bold text-white mb-4">State University — 100-Acre Smart Campus</h3>
               <p className="text-[var(--color-text-secondary)] mb-8 leading-relaxed">Overhauled the entire legacy infrastructure across 40 buildings. Deployed a 40G fiber core, 1,200+ WiFi 6 APs, and a centralized command center with 500 IP cameras operating on AI-powered analytics.</p>
               <div className="grid grid-cols-3 gap-4 mb-8">
-                {[["40 Bldgs", "Covered"], ["10,000+", "Concurrent Users"], ["99.99%", "Uptime SLA"]].map(([v, l]) => (
+                {[["40 Bldgs", "Covered"], ["10,000+", "Concurrent Users"], ["99.99%", "Uptime Guarantee"]].map(([v, l]) => (
                   <div key={l} className="text-center bg-[var(--color-surface-2)] p-4 rounded-sm">
                     <div className="text-2xl font-bold text-white font-display">{v}</div>
                     <div className="text-[10px] text-[var(--color-text-muted)] uppercase tracking-wider mt-1">{l}</div>

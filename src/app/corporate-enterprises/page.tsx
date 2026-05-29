@@ -21,7 +21,7 @@ const approach = [
   { step: "02", title: "High-Density WiFi 6 Design", body: "Location-aware wireless planning using heat mapping tools to ensure full, high-performance coverage across every workspace." },
   { step: "03", title: "Unified Access Control", body: "Biometric entry systems at server rooms, executive areas, and sensitive zones — integrated with your Active Directory." },
   { step: "04", title: "Boardroom AV Integration", body: "One-touch conferencing systems, dual-screen displays, and noise-cancelling audio designed for executive-grade experience." },
-  { step: "05", title: "Managed Continuity Agreement", body: "Post-deployment SLA covering preventive maintenance, software updates, and priority response for all corporate infrastructure." },
+  { step: "05", title: "Managed Continuity Agreement", body: "Post-deployment AMC covering preventive maintenance, software updates, and priority response for all corporate infrastructure." },
 ];
 
 const stack = [

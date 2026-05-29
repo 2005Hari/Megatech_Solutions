@@ -14,7 +14,7 @@ const reasons = [
   { code: "03", title: "Multi-Vendor Independence", body: "We hold no exclusive dealership with any manufacturer. This means every recommendation is driven by what performs best in your specific environment — not by our vendor margin." },
   { code: "04", title: "Long-Term Partnerships", body: "The majority of our client relationships span over a decade. We don't just complete a deployment and leave — we embed ourselves as a permanent operational partner." },
   { code: "05", title: "Certified Engineering Team", body: "Our engineers carry active certifications from Cisco, Aruba, Hikvision, Dell, and more — ensuring expert-level design, deployment, and troubleshooting at every stage." },
-  { code: "06", title: "SLA-Driven Continuity", body: "Every post-deployment engagement includes a formal SLA with guaranteed response times, preventive maintenance schedules, and 24/7 NOC monitoring for critical infrastructure." },
+  { code: "06", title: "AMC-Driven Continuity", body: "Every post-deployment engagement includes a formal AMC with guaranteed response times, preventive maintenance schedules, and 24/7 NOC monitoring for critical infrastructure." },
 ];
 
 export default function WhyMegaTechPage() {

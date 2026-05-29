@@ -58,9 +58,9 @@ const capabilities = [
   {
     icon: <Server className="w-7 h-7" />,
     title: "Operational Continuity",
-    desc: "SLA-backed preventive maintenance, 24/7 remote NOC monitoring, asset lifecycle management, and rapid emergency deployment.",
+    desc: "AMC-backed preventive maintenance, 24/7 remote NOC monitoring, asset lifecycle management, and rapid emergency deployment.",
     href: "/operational-continuity",
-    tags: ["SLA Management", "Remote NOC", "24/7 Support"],
+    tags: ["AMC Management", "Remote NOC", "24/7 Support"],
   },
 ];
 
@@ -77,7 +77,7 @@ const timeline = [
 const trustPoints = [
   "Certified engineering team with 25+ years of field experience",
   "Multi-vendor partnerships — no vendor lock-in",
-  "SLA-driven maintenance and 24/7 operational support",
+  "AMC-driven maintenance and 24/7 operational support",
   "Deployed across education, healthcare, industrial, and government sectors",
   "Dhule HQ and Mumbai corporate office — pan-India reach",
 ];

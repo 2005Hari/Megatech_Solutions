@@ -39,7 +39,7 @@ const insights = [
     desc: "Exploring how facial recognition, license plate recognition, and behavior analytics are transforming modern industrial control rooms."
   },
   {
-    title: "Why SLAs Matter More Than Hardware Specs",
+    title: "Why AMCs Matter More Than Hardware Specs",
     category: "Managed Services",
     readTime: "5 min read",
     author: "Director of NOC Operations",
